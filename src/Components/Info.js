@@ -2,14 +2,13 @@ import React from 'react';
 import {View,Text,StyleSheet} from "react-native"
 import CheckBox from './CheckBox';
 
-const Info = ({RememberMe,isClicked,onPress}) => {
+const Info = ({RememberMe,isClicked}) => {
     return (
         <View style={styles.container}>
             <View style={styles.leftSide}>
                <CheckBox
                    RememberMe={RememberMe}
                    isClicked={isClicked}
-                   onPress={onPress}
                />
                <Text style={styles.remember}>Remember me</Text>
             </View>
