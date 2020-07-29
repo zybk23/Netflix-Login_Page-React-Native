@@ -45,7 +45,6 @@ class Main extends Component {
                     <Info
                         RememberMe={()=>{this.RememberMe(); this.setState({isClicked: !isClicked})} }
                         isClicked={isClicked}
-                        onPress={()=>{}}
                     />
                 </View>
                 <BottomView/>
