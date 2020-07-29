@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet,View,TouchableOpacity,Text} from "react-native"
 
 
-const CheckBox = ({RememberMe,isClicked,onPress}) => {
+const CheckBox = ({RememberMe,isClicked}) => {
     return (
         <TouchableOpacity
             style={styles.check}>
